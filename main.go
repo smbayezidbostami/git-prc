@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var name, city string = "BAYEZID", "PABNA"
-	fmt.Println(name, city)
+	fmt.Println("Enter your name & age")
+	var name string
+	var age int
+	fmt.Scanf("%s %d", &name, &age)
+	fmt.Println("your name is %s & city is %d", name, age)
 }
